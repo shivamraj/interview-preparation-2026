@@ -1,0 +1,46 @@
+.suggestion-item {
+    list-style: none;
+}
+
+.suggestions-list {
+    padding: 0;
+    margin: 0;
+}
+
+.autocomplete-container {
+    width: 300px;
+}
+
+.autocomplete-input {
+    height: 30px;
+    width: 100%;
+}
+
+.loading {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid #ccc;
+    max-height: 200px;
+    width: 100%;
+    overflow-y: auto;
+
+    .suggestion-item {
+        padding: 8px;
+    }
+
+    .suggestion-item:hover {
+        background-color: #f0f0f0;
+    }
+
+    .highlighted {
+        background: #e5e7eb;
+    }
+}
